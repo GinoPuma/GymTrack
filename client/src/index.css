@@ -1,0 +1,184 @@
+/* Variables CSS para una paleta de colores temático gym */
+:root {
+  --gym-dark-bg: #1a1a1d; /* Fondo muy oscuro, casi negro */
+  --gym-card-bg: #222227; /* Fondo de tarjetas un poco más claro que el background */
+  --gym-light-text: #f0f0f0; /* Texto claro principal */
+  --gym-muted-text: #aaaaaa; /* Texto atenuado, más gris claro */
+  --gym-accent-primary: #00e676; /* Verde lima vibrante como acento principal */
+  --gym-accent-secondary: #00b0ff; /* Azul brillante como acento secundario */
+  --gym-danger: #ff6e40; /* Naranja rojizo para peligro */
+  --gym-warning: #ffea00; /* Amarillo para advertencias */
+  --gym-info: #00bcd4; /* Cian para información */
+  --gym-border: #333333;
+  --gym-shadow: rgba(0, 0, 0, 0.4);
+}
+
+/* Anular o definir variables de Bootstrap con nuestro tema */
+body {
+  --bs-body-bg: var(--gym-dark-bg);
+  --bs-body-color: var(--gym-light-text); /* Texto general del body */
+  --bs-heading-color: var(
+    --gym-light-text
+  ); /* Color de todos los encabezados */
+  --bs-primary: var(--gym-accent-primary);
+  --bs-secondary: var(
+    --gym-muted-text
+  ); /* Para la clase .text-secondary de Bootstrap */
+  --bs-danger: var(--gym-danger);
+  --bs-success: var(--gym-accent-secondary);
+  --bs-warning: var(--gym-warning);
+  --bs-info: var(--gym-info);
+  --bs-border-color: var(--gym-border);
+  --bs-card-bg: var(--gym-card-bg); /* Fondo para las tarjetas */
+  --bs-card-color: var(
+    --gym-light-text
+  ); /* Color de texto POR DEFECTO en tarjetas */
+  --bs-link-color: var(--gym-accent-primary);
+  --bs-link-hover-color: var(--gym-accent-secondary);
+
+  /* Text-muted global override para asegurar visibilidad en fondos oscuros */
+  --bs-text-muted: var(
+    --gym-muted-text
+  ); /* La clase text-muted ahora usa este color claro */
+}
+
+/* Base global */
+html,
+body,
+#root,
+.App {
+  min-height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
+  padding-top: 56px; /* Espacio para el navbar fijo de Bootstrap */
+}
+
+/* Navegación */
+.navbar-brand {
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* Estilo para las páginas de autenticación */
+.auth-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://source.unsplash.com/random/1920x1080/?workout,gym,fitness,heavy-lifting,crossfit"); /* Imagen dinámica de gimnasio */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  flex-direction: column;
+  padding: 1rem; /* Pequeño padding para móviles */
+}
+
+/* Contenedor del formulario de autenticación */
+.auth-form-container {
+  background-color: rgba(
+    34,
+    34,
+    39,
+    0.95
+  ); /* Fondo de tarjeta semitransparente oscura */
+  color: var(--gym-light-text); /* Aseguramos texto claro */
+  border: 1px solid var(--gym-border);
+  box-shadow: 0 0.5rem 1rem var(--gym-shadow) !important; /* Sombra más pronunciada */
+}
+
+/* Inputs de formulario para el tema oscuro */
+.form-control,
+.form-select {
+  background-color: #333333; /* Fondo oscuro inputs */
+  color: var(--gym-light-text); /* Texto claro inputs */
+  border: 1px solid var(--gym-border);
+}
+.form-control:focus,
+.form-select:focus {
+  background-color: #333333; /* Fondo oscuro inputs al focus */
+  color: var(--gym-light-text);
+  border-color: var(--gym-accent-primary); /* Borde acentuado al focus */
+  box-shadow: 0 0 0 0.25rem rgba(0, 230, 118, 0.25); /* Sombra acentuado al focus */
+}
+/* Color para el placeholder de los inputs */
+.form-control::placeholder {
+  color: var(--gym-muted-text);
+  opacity: 0.7; /* Ligeramente más transparente */
+}
+.form-floating > label {
+  color: var(--gym-muted-text);
+}
+.form-floating > .form-control:focus ~ label,
+.form-floating > .form-control:not(:placeholder-shown) ~ label,
+.form-floating > .form-select ~ label {
+  color: var(--gym-accent-primary); /* Color de etiqueta flotante */
+}
+
+/* Algunos textos específicos que Bootstrap podría hacer oscuros */
+.text-muted {
+  color: var(
+    --bs-text-muted
+  ) !important; /* Fuerza el uso de la variable, importante */
+}
+/* Asegura que los list-group-items tengan texto claro en todo el sistema */
+.list-group-item {
+  color: var(--gym-light-text); /* Color claro para todos los items de lista */
+}
+.list-group-item.list-group-item-action:hover {
+  background-color: rgba(0, 0, 0, 0.2); /* Fondo más oscuro al pasar el ratón */
+}
+
+/* Clases específicas para Dashboard y Catálogos */
+.dashboard-bg,
+.catalog-bg {
+  min-height: 100vh;
+  background-color: var(
+    --bs-body-bg
+  ); /* Usa el fondo principal definido en las variables de BS */
+}
+
+.card {
+  border: 1px solid var(--gym-border);
+  box-shadow: 0 0.25rem 0.5rem var(--gym-shadow);
+}
+.card-header {
+  background-color: #4a4a4f;
+  color: var(--gym-light-text);
+  border-bottom: 1px solid var(--gym-border);
+}
+
+.card-title {
+  color: var(--gym-accent-primary) !important;
+}
+.card-text {
+  color: var(--gym-light-text); /* Asegura que el texto en la card sea claro */
+}
+
+/* Estilos para alert-info, alert-warning etc, si no son 100% compatibles con el tema oscuro */
+.alert {
+  border-width: 0; /* Suprime bordes de alerta para un look más limpio */
+}
+.alert-warning {
+  background-color: #423200;
+  color: var(--gym-warning);
+}
+.alert-danger {
+  background-color: #5c2000;
+  color: var(--gym-danger);
+}
+.alert-success {
+  background-color: #005c2e;
+  color: var(--gym-accent-primary);
+}
+.alert-info {
+  background-color: #004d5c;
+  color: var(--gym-info);
+}

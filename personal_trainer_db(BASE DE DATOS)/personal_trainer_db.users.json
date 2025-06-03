@@ -1,0 +1,284 @@
+[{
+  "_id": {
+    "$oid": "683340db1e468d3c7067ee88"
+  },
+  "username": "test",
+  "email": "test@gmail.com",
+  "password": "$2a$10$UoDoNhyCMZQoOdl6j1oIf.a5OuyPHM9Uvd9pKFovKvc5rJcjGSS2W",
+  "role": "trainer",
+  "trainerId": null,
+  "createdAt": {
+    "$date": "2025-05-25T16:10:03.570Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6833416d1e468d3c7067ee9b"
+  },
+  "username": "test1",
+  "email": "test1@gmail.com",
+  "password": "$2a$10$HGgXha5XMJbWWeGmEicMrOdDOAGkq9WXQi1apgpSpjNx2KU9ue1kW",
+  "role": "client",
+  "trainerId": {
+    "$oid": "683340db1e468d3c7067ee88"
+  },
+  "createdAt": {
+    "$date": "2025-05-25T16:12:29.058Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68343bb9be11b79f9ba14092"
+  },
+  "username": "test2",
+  "email": "test2@gmail.com",
+  "password": "$2a$10$tKdhNSFIV.F1f6D0kqelY.xx/fN8OTOm7of5oZ4udHKV6wZzcw0M.",
+  "role": "trainer",
+  "trainerId": null,
+  "createdAt": {
+    "$date": "2025-05-26T10:00:25.387Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68346b5e85f9a409865c173c"
+  },
+  "username": "test3",
+  "email": "test3@test.com",
+  "password": "$2a$10$lp4YpIJ9910nlvB3SUVEXeQ9tgybRezPQNhU1RGr7d9z5gd/xTD/O",
+  "role": "client",
+  "trainerId": {
+    "$oid": "683340db1e468d3c7067ee88"
+  },
+  "createdAt": {
+    "$date": "2025-05-26T13:23:43.001Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68346cb885f9a409865c1750"
+  },
+  "username": "test4",
+  "email": "test4@gmail.com",
+  "password": "$2a$10$1WZbzmjFzAKFnYzQL.MCuue1ruKGEdnB79/Lx256NwM6Y5.vbSnTO",
+  "role": "client",
+  "trainerId": {
+    "$oid": "683340db1e468d3c7067ee88"
+  },
+  "createdAt": {
+    "$date": "2025-05-26T13:29:28.691Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68347274822954c64c70b504"
+  },
+  "username": "test6",
+  "email": "test6@gmail.com",
+  "password": "$2a$10$POHYQUQOgcNry/A2fN95d.Wdj1RgqUxanYgU/PsfzsVIwwmsXurK2",
+  "role": "trainer",
+  "trainerId": null,
+  "createdAt": {
+    "$date": "2025-05-26T13:53:56.924Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6834728c822954c64c70b50c"
+  },
+  "username": "test7",
+  "email": "test7@test.com",
+  "password": "$2a$10$zylCnQyiKc/NDYAPRUiDz.rTUiODkD.JiA8Snqs0EFlu1FuhCgbTm",
+  "role": "trainer",
+  "trainerId": null,
+  "createdAt": {
+    "$date": "2025-05-26T13:54:20.628Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683473f711b7034c833e918f"
+  },
+  "username": "test8",
+  "email": "test8@gmail.com",
+  "password": "$2a$10$tSBu6lXoXswocPC4GigbluseoIQs71MJXXrf2Vkk5yHHliadEi5LG",
+  "role": "client",
+  "trainerId": {
+    "$oid": "68343bb9be11b79f9ba14092"
+  },
+  "createdAt": {
+    "$date": "2025-05-26T14:00:23.566Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6835c6be70cdebbeefa22fe1"
+  },
+  "username": "admin",
+  "email": "admin@admin.com",
+  "password": "$2a$10$JHujokJCsSA.50No3HWhDOlaxAqP8n3FHGfWCTQ1s4WrhYH0w8zC6",
+  "role": "admin",
+  "trainerId": null,
+  "createdAt": {
+    "$date": "2025-05-27T14:05:50.531Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6835ca180b6d7e99b122ef09"
+  },
+  "username": "test10",
+  "email": "test10@test.com",
+  "password": "$2a$10$MddKeyokGu9YGC3wN1Zc7ue.NUCpEtDgTJ2c9SB9abf/pPZre.hTS",
+  "role": "trainer",
+  "trainerId": null,
+  "createdAt": {
+    "$date": "2025-05-27T14:20:08.628Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6835ca2f0b6d7e99b122ef13"
+  },
+  "username": "test11",
+  "email": "test11@gmail.com",
+  "password": "$2a$10$SXrpv9GXhOOJnhqY3lrd/.dnlBDzdpXwUqYEmOuzpD.j7AVdOYzx.",
+  "role": "client",
+  "trainerId": {
+    "$oid": "683340db1e468d3c7067ee88"
+  },
+  "createdAt": {
+    "$date": "2025-05-27T14:20:31.923Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6835ca770b6d7e99b122ef2b"
+  },
+  "username": "test12",
+  "email": "test12@test.com",
+  "password": "$2a$10$XkTuA7ykKj6vMLu6gElDquTSvi9xIZaYUOAcuZdMbLtkRA4k6YJ8S",
+  "role": "client",
+  "trainerId": {
+    "$oid": "6835ca180b6d7e99b122ef09"
+  },
+  "createdAt": {
+    "$date": "2025-05-27T14:21:43.123Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6835d30eb1162c0757c2344a"
+  },
+  "username": "test13",
+  "email": "test13@test.com",
+  "password": "$2a$10$YWNH1tHMX3tev9daCRvb8uo69GgxhNPViafH9DOUQbmUG3IcCXpV6",
+  "role": "trainer",
+  "trainerId": null,
+  "createdAt": {
+    "$date": "2025-05-27T14:58:22.374Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6835ef49bb40908a5d60627a"
+  },
+  "username": "test15",
+  "email": "test15@gmail.com",
+  "password": "$2a$10$cgdM3yycTY/a5mFCAy2P7OVP/lhY.4BoJrn738dGJ8RLiiF7IXODy",
+  "role": "trainer",
+  "trainerId": null,
+  "createdAt": {
+    "$date": "2025-05-27T16:58:49.030Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6835f1c6bb40908a5d606356"
+  },
+  "username": "leonardopilco",
+  "email": "leonard@gmail.com",
+  "password": "$2a$10$s0TXwShLInkAfwiqUuHZDeg5ZG2YUGoNeSNM1xc4254iyGwtK3yKC",
+  "role": "client",
+  "trainerId": {
+    "$oid": "683340db1e468d3c7067ee88"
+  },
+  "createdAt": {
+    "$date": "2025-05-27T17:09:26.429Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683b917f0b34a358c2e36a64"
+  },
+  "username": "test200",
+  "email": "test200@test.com",
+  "password": "$2a$10$U.A0fMVAnFJpOpDZQGH73.Ii6QIund35Lm1quZpIsiAX5yvPwU2D2",
+  "role": "client",
+  "trainerId": {
+    "$oid": "683340db1e468d3c7067ee88"
+  },
+  "createdAt": {
+    "$date": "2025-05-31T23:32:15.962Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683b91a20b34a358c2e36a76"
+  },
+  "username": "test100",
+  "email": "test100@test.com",
+  "password": "$2a$10$zfa/74q2SYfFoS/Q4j0u/O42/GrcqbOjhl1yT0x.MSbCN5D1M86Aq",
+  "role": "trainer",
+  "trainerId": null,
+  "createdAt": {
+    "$date": "2025-05-31T23:32:50.625Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683bbd9f94201ee215b583e4"
+  },
+  "username": "Gino Puma",
+  "email": "gino1@gmail.com",
+  "password": "$2a$10$QcGFMdOilTaYCJ5Trh9OL.nghnTGU/j26YJbS1/TQeis8YbQMemTC",
+  "role": "trainer",
+  "trainerId": null,
+  "createdAt": {
+    "$date": "2025-06-01T02:40:31.322Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683bbdc794201ee215b583ee"
+  },
+  "username": "Piero Puma",
+  "email": "piero1@gmail.com",
+  "password": "$2a$10$/yNRSRy4nKAVh6tRvqH6XOUNaOtIF6uqwrnlQhocC21FPWeR029.e",
+  "role": "client",
+  "trainerId": {
+    "$oid": "683bbd9f94201ee215b583e4"
+  },
+  "createdAt": {
+    "$date": "2025-06-01T02:41:11.350Z"
+  },
+  "__v": 0
+}]

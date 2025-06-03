@@ -1,0 +1,85 @@
+[{
+  "_id": {
+    "$oid": "683468bf3e109a2fade5319d"
+  },
+  "name": "test",
+  "description": "test",
+  "muscleGroup": "Chest",
+  "equipment": "test",
+  "videoUrl": "",
+  "createdAt": {
+    "$date": "2025-05-26T13:12:31.857Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-26T13:12:31.857Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68346dc085f9a409865c1770"
+  },
+  "name": "Brazos",
+  "description": "test",
+  "muscleGroup": "Full Body",
+  "equipment": "test",
+  "videoUrl": "",
+  "createdAt": {
+    "$date": "2025-05-26T13:33:52.157Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-26T13:33:52.157Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6835ed16bb40908a5d6061c4"
+  },
+  "name": "test3",
+  "description": "test3",
+  "muscleGroup": "Triceps",
+  "equipment": "test3",
+  "videoUrl": "",
+  "createdAt": {
+    "$date": "2025-05-27T16:49:26.722Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-27T16:49:26.722Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6839cad1993ffd442e361783"
+  },
+  "name": "test2",
+  "description": "vy",
+  "muscleGroup": "Chest",
+  "equipment": "rewtt",
+  "videoUrl": "",
+  "createdAt": {
+    "$date": "2025-05-30T15:12:17.237Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-30T15:12:26.876Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683bbe2594201ee215b5841b"
+  },
+  "name": "Curl de Biceps",
+  "description": "trabajaremos los musculos de los Biceps",
+  "muscleGroup": "Biceps",
+  "equipment": "mancuernas",
+  "videoUrl": "",
+  "createdAt": {
+    "$date": "2025-06-01T02:42:45.227Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-01T02:42:45.227Z"
+  },
+  "__v": 0
+}]

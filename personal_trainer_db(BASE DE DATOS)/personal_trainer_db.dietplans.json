@@ -1,0 +1,172 @@
+[{
+  "_id": {
+    "$oid": "683439efbe11b79f9ba14067"
+  },
+  "name": "test1",
+  "description": "test1",
+  "clientId": {
+    "$oid": "6833416d1e468d3c7067ee9b"
+  },
+  "trainerId": {
+    "$oid": "683340db1e468d3c7067ee88"
+  },
+  "startDate": {
+    "$date": "2025-05-25T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2025-05-30T00:00:00.000Z"
+  },
+  "meals": [
+    {
+      "mealId": {
+        "$oid": "68341b387f73b661198e485a"
+      },
+      "timeOfDay": "Desayuno",
+      "quantity": "200g",
+      "notes": "test1",
+      "_id": {
+        "$oid": "683439efbe11b79f9ba14068"
+      }
+    }
+  ],
+  "totalCalories": 0,
+  "totalProtein": 0,
+  "totalCarbs": 0,
+  "totalFats": 0,
+  "createdAt": {
+    "$date": "2025-05-26T09:52:47.292Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-26T09:52:47.292Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6835f3a3bb40908a5d6063ea"
+  },
+  "name": "test",
+  "description": "test",
+  "clientId": {
+    "$oid": "6835f1c6bb40908a5d606356"
+  },
+  "trainerId": {
+    "$oid": "683340db1e468d3c7067ee88"
+  },
+  "startDate": {
+    "$date": "2025-05-27T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2025-05-31T00:00:00.000Z"
+  },
+  "meals": [
+    {
+      "mealId": {
+        "$oid": "6835ed29bb40908a5d6061cb"
+      },
+      "timeOfDay": "desayuno",
+      "quantity": "200g",
+      "notes": "test",
+      "_id": {
+        "$oid": "6835f3a3bb40908a5d6063eb"
+      }
+    }
+  ],
+  "totalCalories": 0,
+  "totalProtein": 0,
+  "totalCarbs": 0,
+  "totalFats": 0,
+  "createdAt": {
+    "$date": "2025-05-27T17:17:23.432Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-27T17:17:23.432Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683b90770b34a358c2e36a34"
+  },
+  "name": "test20",
+  "description": "test20",
+  "clientId": {
+    "$oid": "6833416d1e468d3c7067ee9b"
+  },
+  "trainerId": {
+    "$oid": "683340db1e468d3c7067ee88"
+  },
+  "startDate": {
+    "$date": "2025-05-30T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2025-06-06T00:00:00.000Z"
+  },
+  "meals": [
+    {
+      "mealId": {
+        "$oid": "6835ed29bb40908a5d6061cb"
+      },
+      "timeOfDay": "Desayuno",
+      "quantity": "200",
+      "notes": "test20",
+      "_id": {
+        "$oid": "683b90770b34a358c2e36a35"
+      }
+    }
+  ],
+  "totalCalories": 0,
+  "totalProtein": 0,
+  "totalCarbs": 0,
+  "totalFats": 0,
+  "createdAt": {
+    "$date": "2025-05-31T23:27:51.223Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-31T23:27:51.223Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683bc02594201ee215b58459"
+  },
+  "name": "Plan Alto en Proteínas para Pérdida de Grasa",
+  "description": "Este plan está diseñado para apoyar la pérdida de grasa manteniendo la masa muscular, con comidas ricas en proteínas, moderadas en carbohidratos y grasas saludables. Ideal para clientes activos con rutina de entrenamiento.",
+  "clientId": {
+    "$oid": "683bbdc794201ee215b583ee"
+  },
+  "trainerId": {
+    "$oid": "683bbd9f94201ee215b583e4"
+  },
+  "startDate": {
+    "$date": "2025-05-30T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2025-06-07T00:00:00.000Z"
+  },
+  "meals": [
+    {
+      "mealId": {
+        "$oid": "683bbfb994201ee215b58447"
+      },
+      "timeOfDay": "Almuerzo",
+      "quantity": "350g, 1 porción",
+      "notes": "Agregar limón natural como aderezo, evitar sal adicional. Acompañar con un vaso de agua. Puede añadirse 1 cda de aceite de oliva si se necesita más grasa saludable.",
+      "_id": {
+        "$oid": "683bc02594201ee215b5845a"
+      }
+    }
+  ],
+  "totalCalories": 0,
+  "totalProtein": 0,
+  "totalCarbs": 0,
+  "totalFats": 0,
+  "createdAt": {
+    "$date": "2025-06-01T02:51:17.531Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-01T02:51:17.531Z"
+  },
+  "__v": 0
+}]

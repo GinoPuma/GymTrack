@@ -1,0 +1,609 @@
+[{
+  "_id": {
+    "$oid": "683341bc1e468d3c7067eedc"
+  },
+  "senderId": {
+    "$oid": "683340db1e468d3c7067ee88"
+  },
+  "receiverId": {
+    "$oid": "6833416d1e468d3c7067ee9b"
+  },
+  "content": "como va tu progreso",
+  "conversationId": "683340db1e468d3c7067ee88_6833416d1e468d3c7067ee9b",
+  "read": false,
+  "createdAt": {
+    "$date": "2025-05-25T16:13:48.935Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-25T16:13:48.935Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683341d21e468d3c7067eee2"
+  },
+  "senderId": {
+    "$oid": "683340db1e468d3c7067ee88"
+  },
+  "receiverId": {
+    "$oid": "6833416d1e468d3c7067ee9b"
+  },
+  "content": "sadfasdf",
+  "conversationId": "683340db1e468d3c7067ee88_6833416d1e468d3c7067ee9b",
+  "read": false,
+  "createdAt": {
+    "$date": "2025-05-25T16:14:10.517Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-25T16:14:10.517Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683343281e468d3c7067ef4b"
+  },
+  "senderId": {
+    "$oid": "683340db1e468d3c7067ee88"
+  },
+  "receiverId": {
+    "$oid": "6833416d1e468d3c7067ee9b"
+  },
+  "content": "Hola",
+  "conversationId": "683340db1e468d3c7067ee88_6833416d1e468d3c7067ee9b",
+  "read": false,
+  "createdAt": {
+    "$date": "2025-05-25T16:19:52.531Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-25T16:19:52.531Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6834276a850d21763e640069"
+  },
+  "senderId": {
+    "$oid": "683340db1e468d3c7067ee88"
+  },
+  "receiverId": {
+    "$oid": "6833416d1e468d3c7067ee9b"
+  },
+  "content": "hola",
+  "conversationId": "683340db1e468d3c7067ee88_6833416d1e468d3c7067ee9b",
+  "read": false,
+  "createdAt": {
+    "$date": "2025-05-26T08:33:46.138Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-26T08:33:46.138Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68344577be11b79f9ba14257"
+  },
+  "senderId": {
+    "$oid": "683340db1e468d3c7067ee88"
+  },
+  "receiverId": {
+    "$oid": "6833416d1e468d3c7067ee9b"
+  },
+  "content": "hola",
+  "conversationId": "683340db1e468d3c7067ee88_6833416d1e468d3c7067ee9b",
+  "read": false,
+  "createdAt": {
+    "$date": "2025-05-26T10:41:59.320Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-26T10:41:59.320Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68344a21dbe844a9abedad75"
+  },
+  "senderId": {
+    "$oid": "683340db1e468d3c7067ee88"
+  },
+  "receiverId": {
+    "$oid": "6833416d1e468d3c7067ee9b"
+  },
+  "content": "hola",
+  "conversationId": "683340db1e468d3c7067ee88_6833416d1e468d3c7067ee9b",
+  "read": false,
+  "createdAt": {
+    "$date": "2025-05-26T11:01:53.249Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-26T11:01:53.249Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68344c9d618c82b76990da3e"
+  },
+  "senderId": {
+    "$oid": "6833416d1e468d3c7067ee9b"
+  },
+  "receiverId": {
+    "$oid": "683340db1e468d3c7067ee88"
+  },
+  "content": "hola",
+  "conversationId": "683340db1e468d3c7067ee88_6833416d1e468d3c7067ee9b",
+  "read": false,
+  "createdAt": {
+    "$date": "2025-05-26T11:12:29.367Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-26T11:12:29.367Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68344ca6618c82b76990da41"
+  },
+  "senderId": {
+    "$oid": "6833416d1e468d3c7067ee9b"
+  },
+  "receiverId": {
+    "$oid": "683340db1e468d3c7067ee88"
+  },
+  "content": "como estas",
+  "conversationId": "683340db1e468d3c7067ee88_6833416d1e468d3c7067ee9b",
+  "read": false,
+  "createdAt": {
+    "$date": "2025-05-26T11:12:38.765Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-26T11:12:38.765Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68344d2e618c82b76990dade"
+  },
+  "senderId": {
+    "$oid": "6833416d1e468d3c7067ee9b"
+  },
+  "receiverId": {
+    "$oid": "683340db1e468d3c7067ee88"
+  },
+  "content": "hola",
+  "conversationId": "683340db1e468d3c7067ee88_6833416d1e468d3c7067ee9b",
+  "read": false,
+  "createdAt": {
+    "$date": "2025-05-26T11:14:54.040Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-26T11:14:54.040Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68344d32618c82b76990dae1"
+  },
+  "senderId": {
+    "$oid": "683340db1e468d3c7067ee88"
+  },
+  "receiverId": {
+    "$oid": "6833416d1e468d3c7067ee9b"
+  },
+  "content": "hola",
+  "conversationId": "683340db1e468d3c7067ee88_6833416d1e468d3c7067ee9b",
+  "read": false,
+  "createdAt": {
+    "$date": "2025-05-26T11:14:58.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-26T11:14:58.123Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68344d3f618c82b76990dae4"
+  },
+  "senderId": {
+    "$oid": "6833416d1e468d3c7067ee9b"
+  },
+  "receiverId": {
+    "$oid": "683340db1e468d3c7067ee88"
+  },
+  "content": "hola",
+  "conversationId": "683340db1e468d3c7067ee88_6833416d1e468d3c7067ee9b",
+  "read": false,
+  "createdAt": {
+    "$date": "2025-05-26T11:15:11.076Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-26T11:15:11.076Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68344d4b618c82b76990dae7"
+  },
+  "senderId": {
+    "$oid": "683340db1e468d3c7067ee88"
+  },
+  "receiverId": {
+    "$oid": "6833416d1e468d3c7067ee9b"
+  },
+  "content": "hola",
+  "conversationId": "683340db1e468d3c7067ee88_6833416d1e468d3c7067ee9b",
+  "read": false,
+  "createdAt": {
+    "$date": "2025-05-26T11:15:23.553Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-26T11:15:23.553Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68344d50618c82b76990daea"
+  },
+  "senderId": {
+    "$oid": "6833416d1e468d3c7067ee9b"
+  },
+  "receiverId": {
+    "$oid": "683340db1e468d3c7067ee88"
+  },
+  "content": "hola",
+  "conversationId": "683340db1e468d3c7067ee88_6833416d1e468d3c7067ee9b",
+  "read": false,
+  "createdAt": {
+    "$date": "2025-05-26T11:15:28.634Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-26T11:15:28.634Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68344d68618c82b76990db07"
+  },
+  "senderId": {
+    "$oid": "6833416d1e468d3c7067ee9b"
+  },
+  "receiverId": {
+    "$oid": "683340db1e468d3c7067ee88"
+  },
+  "content": "hola",
+  "conversationId": "683340db1e468d3c7067ee88_6833416d1e468d3c7067ee9b",
+  "read": false,
+  "createdAt": {
+    "$date": "2025-05-26T11:15:52.291Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-26T11:15:52.291Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68344d6c618c82b76990db0a"
+  },
+  "senderId": {
+    "$oid": "683340db1e468d3c7067ee88"
+  },
+  "receiverId": {
+    "$oid": "6833416d1e468d3c7067ee9b"
+  },
+  "content": "hola",
+  "conversationId": "683340db1e468d3c7067ee88_6833416d1e468d3c7067ee9b",
+  "read": false,
+  "createdAt": {
+    "$date": "2025-05-26T11:15:56.457Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-26T11:15:56.457Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68344dfd618c82b76990db29"
+  },
+  "senderId": {
+    "$oid": "6833416d1e468d3c7067ee9b"
+  },
+  "receiverId": {
+    "$oid": "683340db1e468d3c7067ee88"
+  },
+  "content": "hola",
+  "conversationId": "683340db1e468d3c7067ee88_6833416d1e468d3c7067ee9b",
+  "read": false,
+  "createdAt": {
+    "$date": "2025-05-26T11:18:21.902Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-26T11:18:21.902Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68344e05618c82b76990db2c"
+  },
+  "senderId": {
+    "$oid": "683340db1e468d3c7067ee88"
+  },
+  "receiverId": {
+    "$oid": "6833416d1e468d3c7067ee9b"
+  },
+  "content": "hola",
+  "conversationId": "683340db1e468d3c7067ee88_6833416d1e468d3c7067ee9b",
+  "read": false,
+  "createdAt": {
+    "$date": "2025-05-26T11:18:29.844Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-26T11:18:29.844Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683468313e109a2fade53170"
+  },
+  "senderId": {
+    "$oid": "6833416d1e468d3c7067ee9b"
+  },
+  "receiverId": {
+    "$oid": "683340db1e468d3c7067ee88"
+  },
+  "content": "hola",
+  "conversationId": "683340db1e468d3c7067ee88_6833416d1e468d3c7067ee9b",
+  "read": false,
+  "createdAt": {
+    "$date": "2025-05-26T13:10:09.133Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-26T13:10:09.133Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683468623e109a2fade53186"
+  },
+  "senderId": {
+    "$oid": "683340db1e468d3c7067ee88"
+  },
+  "receiverId": {
+    "$oid": "6833416d1e468d3c7067ee9b"
+  },
+  "content": "hola",
+  "conversationId": "683340db1e468d3c7067ee88_6833416d1e468d3c7067ee9b",
+  "read": false,
+  "createdAt": {
+    "$date": "2025-05-26T13:10:58.047Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-26T13:10:58.047Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6835d6aec3c4ca50739c460f"
+  },
+  "senderId": {
+    "$oid": "683340db1e468d3c7067ee88"
+  },
+  "receiverId": {
+    "$oid": "6833416d1e468d3c7067ee9b"
+  },
+  "content": "hola",
+  "conversationId": "683340db1e468d3c7067ee88_6833416d1e468d3c7067ee9b",
+  "read": false,
+  "createdAt": {
+    "$date": "2025-05-27T15:13:50.333Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-27T15:13:50.333Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6835d6eec3c4ca50739c4686"
+  },
+  "senderId": {
+    "$oid": "6833416d1e468d3c7067ee9b"
+  },
+  "receiverId": {
+    "$oid": "683340db1e468d3c7067ee88"
+  },
+  "content": "hola",
+  "conversationId": "683340db1e468d3c7067ee88_6833416d1e468d3c7067ee9b",
+  "read": false,
+  "createdAt": {
+    "$date": "2025-05-27T15:14:54.752Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-27T15:14:54.752Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6835ed71bb40908a5d60621b"
+  },
+  "senderId": {
+    "$oid": "6833416d1e468d3c7067ee9b"
+  },
+  "receiverId": {
+    "$oid": "683340db1e468d3c7067ee88"
+  },
+  "content": "vhvkh",
+  "conversationId": "683340db1e468d3c7067ee88_6833416d1e468d3c7067ee9b",
+  "read": false,
+  "createdAt": {
+    "$date": "2025-05-27T16:50:57.717Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-27T16:50:57.717Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6835f20bbb40908a5d606382"
+  },
+  "senderId": {
+    "$oid": "6835f1c6bb40908a5d606356"
+  },
+  "receiverId": {
+    "$oid": "683340db1e468d3c7067ee88"
+  },
+  "content": "Buenos dias estoy por primera en tu gimnasio, quiero saber, tengo 30 años ,quiero aumentar musculos, que me recomiendos",
+  "conversationId": "683340db1e468d3c7067ee88_6835f1c6bb40908a5d606356",
+  "read": false,
+  "createdAt": {
+    "$date": "2025-05-27T17:10:35.664Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-27T17:10:35.664Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683b8cb00b34a358c2e36929"
+  },
+  "senderId": {
+    "$oid": "683340db1e468d3c7067ee88"
+  },
+  "receiverId": {
+    "$oid": "6833416d1e468d3c7067ee9b"
+  },
+  "content": "hola",
+  "conversationId": "683340db1e468d3c7067ee88_6833416d1e468d3c7067ee9b",
+  "read": false,
+  "createdAt": {
+    "$date": "2025-05-31T23:11:44.965Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-31T23:11:44.965Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683b8cfb0b34a358c2e3699d"
+  },
+  "senderId": {
+    "$oid": "6833416d1e468d3c7067ee9b"
+  },
+  "receiverId": {
+    "$oid": "683340db1e468d3c7067ee88"
+  },
+  "content": "hola",
+  "conversationId": "683340db1e468d3c7067ee88_6833416d1e468d3c7067ee9b",
+  "read": false,
+  "createdAt": {
+    "$date": "2025-05-31T23:12:59.517Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-31T23:12:59.517Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683bc06194201ee215b5848c"
+  },
+  "senderId": {
+    "$oid": "683bbdc794201ee215b583ee"
+  },
+  "receiverId": {
+    "$oid": "683bbd9f94201ee215b583e4"
+  },
+  "content": "Hola entrenador",
+  "conversationId": "683bbd9f94201ee215b583e4_683bbdc794201ee215b583ee",
+  "read": false,
+  "createdAt": {
+    "$date": "2025-06-01T02:52:17.184Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-01T02:52:17.184Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683bc06c94201ee215b5849b"
+  },
+  "senderId": {
+    "$oid": "683bbd9f94201ee215b583e4"
+  },
+  "receiverId": {
+    "$oid": "683bbdc794201ee215b583ee"
+  },
+  "content": "Hola Piero",
+  "conversationId": "683bbd9f94201ee215b583e4_683bbdc794201ee215b583ee",
+  "read": false,
+  "createdAt": {
+    "$date": "2025-06-01T02:52:28.818Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-01T02:52:28.818Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683bc07294201ee215b5849e"
+  },
+  "senderId": {
+    "$oid": "683bbd9f94201ee215b583e4"
+  },
+  "receiverId": {
+    "$oid": "683bbdc794201ee215b583ee"
+  },
+  "content": "como va tu rutina?",
+  "conversationId": "683bbd9f94201ee215b583e4_683bbdc794201ee215b583ee",
+  "read": false,
+  "createdAt": {
+    "$date": "2025-06-01T02:52:34.863Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-01T02:52:34.863Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683bc08194201ee215b584a1"
+  },
+  "senderId": {
+    "$oid": "683bbdc794201ee215b583ee"
+  },
+  "receiverId": {
+    "$oid": "683bbd9f94201ee215b583e4"
+  },
+  "content": "sigo en proceso, pero ya voy mejorando",
+  "conversationId": "683bbd9f94201ee215b583e4_683bbdc794201ee215b583ee",
+  "read": false,
+  "createdAt": {
+    "$date": "2025-06-01T02:52:49.855Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-01T02:52:49.855Z"
+  },
+  "__v": 0
+}]

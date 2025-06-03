@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "6835ed29bb40908a5d6061cb"
+  },
+  "name": "tes1",
+  "description": "test1",
+  "calories": 30,
+  "protein": 30,
+  "carbs": 30,
+  "fats": 30,
+  "createdAt": {
+    "$date": "2025-05-27T16:49:45.960Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-27T16:49:45.960Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683bbfb994201ee215b58447"
+  },
+  "name": "Ensalada de Pollo con Quinoa",
+  "description": "Ensalada ligera a base de pechuga de pollo a la plancha, quinoa cocida, espinacas, tomate cherry y aderezo de limón.",
+  "calories": 420,
+  "protein": 35,
+  "carbs": 30,
+  "fats": 18,
+  "createdAt": {
+    "$date": "2025-06-01T02:49:29.897Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-01T02:49:29.897Z"
+  },
+  "__v": 0
+}]

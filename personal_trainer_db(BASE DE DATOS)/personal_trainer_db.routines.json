@@ -1,0 +1,160 @@
+[{
+  "_id": {
+    "$oid": "683435f3be11b79f9ba13f9e"
+  },
+  "name": "Brazos",
+  "description": "rawer",
+  "clientId": {
+    "$oid": "6833416d1e468d3c7067ee9b"
+  },
+  "trainerId": {
+    "$oid": "683340db1e468d3c7067ee88"
+  },
+  "startDate": {
+    "$date": "2025-05-26T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2025-06-06T00:00:00.000Z"
+  },
+  "exercises": [
+    {
+      "exerciseId": {
+        "$oid": "683468bf3e109a2fade5319d"
+      },
+      "sets": 4,
+      "reps": "8-10",
+      "weight": "40kg",
+      "notes": "test1",
+      "_id": {
+        "$oid": "683435f3be11b79f9ba13f9f"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-05-26T09:35:47.189Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-31T23:10:58.719Z"
+  },
+  "__v": 2
+},
+{
+  "_id": {
+    "$oid": "6835d636c3c4ca50739c45c3"
+  },
+  "name": "test2",
+  "description": "test2",
+  "clientId": {
+    "$oid": "6833416d1e468d3c7067ee9b"
+  },
+  "trainerId": {
+    "$oid": "683340db1e468d3c7067ee88"
+  },
+  "startDate": {
+    "$date": "2025-05-30T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2025-06-30T00:00:00.000Z"
+  },
+  "exercises": [
+    {
+      "exerciseId": {
+        "$oid": "68341a3d246890a95012cab4"
+      },
+      "sets": 4,
+      "reps": "12",
+      "weight": "40kg",
+      "notes": "test2",
+      "_id": {
+        "$oid": "6835d636c3c4ca50739c45c4"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-05-27T15:11:50.669Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-27T15:11:50.669Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6835f371bb40908a5d6063b9"
+  },
+  "name": "test",
+  "description": "tes1",
+  "clientId": {
+    "$oid": "6835f1c6bb40908a5d606356"
+  },
+  "trainerId": {
+    "$oid": "683340db1e468d3c7067ee88"
+  },
+  "startDate": {
+    "$date": "2025-05-27T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2025-05-31T00:00:00.000Z"
+  },
+  "exercises": [
+    {
+      "exerciseId": {
+        "$oid": "68341a3d246890a95012cab4"
+      },
+      "sets": 4,
+      "reps": "10",
+      "weight": "40kg",
+      "notes": "",
+      "_id": {
+        "$oid": "6835f371bb40908a5d6063ba"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-05-27T17:16:33.451Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-27T17:16:33.451Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683bbf6694201ee215b5842d"
+  },
+  "name": "Rutina para biceps",
+  "description": "Realizacion de ejercicios para el musculo de los biceps",
+  "clientId": {
+    "$oid": "683bbdc794201ee215b583ee"
+  },
+  "trainerId": {
+    "$oid": "683bbd9f94201ee215b583e4"
+  },
+  "startDate": {
+    "$date": "2025-05-30T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2025-06-07T00:00:00.000Z"
+  },
+  "exercises": [
+    {
+      "exerciseId": {
+        "$oid": "683bbe2594201ee215b5841b"
+      },
+      "sets": 4,
+      "reps": "10-12",
+      "weight": "10KG ",
+      "notes": "Mantener siempre la tecnica al momento de la realizacion y recuerda descansar de 1 a 2 minutos despues de cada serie",
+      "_id": {
+        "$oid": "683bbf6694201ee215b5842e"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-06-01T02:48:06.196Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-01T02:48:06.196Z"
+  },
+  "__v": 0
+}]

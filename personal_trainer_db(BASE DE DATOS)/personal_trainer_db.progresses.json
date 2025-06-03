@@ -1,0 +1,96 @@
+[{
+  "_id": {
+    "$oid": "68342baf850d21763e640109"
+  },
+  "clientId": {
+    "$oid": "6833416d1e468d3c7067ee9b"
+  },
+  "weight": 50.5,
+  "measurements": {
+    "chest": 100,
+    "waist": 100,
+    "hips": 100,
+    "arms": 100,
+    "legs": 100
+  },
+  "photos": [],
+  "notes": "",
+  "date": {
+    "$date": "2025-05-26T08:51:59.059Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-26T08:51:59.060Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-26T08:51:59.060Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6835f3f1bb40908a5d606419"
+  },
+  "clientId": {
+    "$oid": "6835f1c6bb40908a5d606356"
+  },
+  "weight": 50,
+  "measurements": {
+    "chest": 100,
+    "waist": 100,
+    "hips": 100,
+    "arms": 100,
+    "legs": 100
+  },
+  "photos": [],
+  "notes": "test",
+  "performanceMetrics": {
+    "benchPress1RM": 100,
+    "squat1RM": 10,
+    "deadlift1RM": 10,
+    "run5kTime": "10"
+  },
+  "date": {
+    "$date": "2025-05-27T17:18:41.927Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-27T17:18:41.930Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-27T17:18:41.930Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683b8d210b34a358c2e369bb"
+  },
+  "clientId": {
+    "$oid": "6833416d1e468d3c7067ee9b"
+  },
+  "weight": 50,
+  "measurements": {
+    "chest": 100,
+    "waist": 100,
+    "hips": 100,
+    "arms": 100,
+    "legs": 100
+  },
+  "photos": [],
+  "notes": "test",
+  "performanceMetrics": {
+    "benchPress1RM": 100,
+    "squat1RM": 100,
+    "deadlift1RM": 100,
+    "run5kTime": "100"
+  },
+  "date": {
+    "$date": "2025-05-31T23:13:37.998Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-31T23:13:38.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-31T23:13:38.000Z"
+  },
+  "__v": 0
+}]

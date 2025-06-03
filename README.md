@@ -98,25 +98,88 @@ cd ../client
 
 ```
 GYMTRACK/
-├── client/         # Frontend React
-│   ├── public/
-│   └── src/
-│       ├── api/
-│       ├── components/
-│       ├── context/
-│       ├── hooks/
-│       ├── pages/
-│       └── App.js, index.js, App.css
-├── server/         # Backend Node.js
-│   ├── config/
-│   ├── controllers/
-│   ├── middleware/
-│   ├── models/
-│   ├── routes/
-│   ├── utils/
-│   └── server.js, .env, package.json
-└── README.md
-
+├── client/                     # Aplicación React (Frontend)
+│   ├── public/                 # Archivos HTML, favicon, etc.
+│   │   └── index.html          # Punto de entrada HTML (con enlaces a Bootstrap CDN)
+│   └── src/                    # Código fuente de React
+│       ├── api/                # Configuración de Axios
+│       │   └── axiosInstance.js
+│       ├── assets/             # Imágenes, iconos, etc. (vacío por defecto, útil para logos)
+│       ├── components/         # Componentes React reutilizables (Cards, Header)
+│       │   ├── DietCard.js
+│       │   ├── Header.js
+│       │   └── RoutineCard.js
+│       ├── context/            # Contextos de React para estado global
+│       │   ├── AuthContext.js  # Contexto de autenticación
+│       │   └── SocketContext.js # Contexto para Socket.IO
+│       ├── hooks/              # Custom Hooks de React
+│       │   └── useAuth.js
+│       ├── pages/              # Páginas principales de la aplicación (vistas de rutas)
+│       │   ├── Auth/           # Páginas de autenticación
+│       │   │   ├── Login.js
+│       │   │   └── Register.js
+│       │   ├── Chat/           # Páginas de chat
+│       │   │   ├── Chat.js     # Chat 1:1
+│       │   │   └── Chatbot.js  # Chat con IA
+│       │   ├── Dashboard/      # Dashboards por rol
+│       │   │   ├── AdminDashboard.js
+│       │   │   ├── ClientDashboard.js
+│       │   │   └── TrainerDashboard.js
+│       │   ├── Management/     # Páginas de gestión y catálogos
+│       │   │   ├── AddEditDietPlan.js
+│       │   │   ├── AddEditRoutine.js
+│       │   │   ├── DietManagement.js
+│       │   │   ├── ExerciseCatalog.js
+│       │   │   ├── MealCatalog.js
+│       │   │   └── RoutineManagement.js
+│       │   ├── Progress/       # Páginas de progreso
+│       │   │   ├── ClientProgress.js
+│       │   │   └── ViewProgress.js
+│       │   └── NotFound.js     # Página 404
+│       ├── App.css             # Estilos CSS globales y tema de gimnasio
+│       ├── App.js              # Componente principal de la aplicación y rutas
+│       ├── index.js            # Punto de entrada de la aplicación React
+│       └── ...                 # Otros archivos de configuración de CRA
+├── server/                     # Servidor Node.js (Backend)
+│   ├── config/                 # Configuraciones de la base de datos y Socket.IO
+│   │   ├── db.js               # Conexión a MongoDB
+│   │   └── socket.js           # Configuración de Socket.IO
+│   ├── controllers/            # Lógica de negocio para las rutas API
+│   │   ├── authController.js
+│   │   ├── chatbotController.js
+│   │   ├── chatController.js
+│   │   ├── dietController.js
+│   │   ├── progressController.js
+│   │   ├── routineController.js
+│   │   └── userController.js
+│   ├── middleware/             # Middlewares personalizados (autenticación, autorización)
+│   │   └── authMiddleware.js
+│   ├── models/                 # Definición de esquemas de MongoDB (Mongoose)
+│   │   ├── DietPlan.js
+│   │   ├── Exercise.js
+│   │   ├── Meal.js
+│   │   ├── Message.js
+│   │   ├── Progress.js
+│   │   ├── Routine.js
+│   │   ├── User.js
+│   │   └── ...
+│   ├── routes/                 # Definición de rutas API
+│   │   ├── authRoutes.js
+│   │   ├── chatbotRoutes.js
+│   │   ├── chatRoutes.js
+│   │   ├── dietRoutes.js
+│   │   ├── exerciseCatalogRoutes.js
+│   │   ├── mealCatalogRoutes.js
+│   │   ├── progressRoutes.js
+│   │   ├── routineRoutes.js
+│   │   └── userRoutes.js
+│   ├── utils/                  # Utilidades (ej. generación de JWT)
+│   │   └── jwt.js
+│   ├── .env                    # Variables de entorno (¡NO SUBIR A GIT!)
+│   ├── package.json            # Dependencias del backend
+│   └── server.js               # Archivo principal del servidor
+├── .gitignore                  # Ignorar archivos y carpetas (ej. node_modules, .env)
+└── README.md                   # Este archivo
 ```
 
 ---

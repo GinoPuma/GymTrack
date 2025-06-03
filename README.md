@@ -185,26 +185,32 @@ GYMTRACK/
 ---
 
 ## 🔑 Usuarios de Prueba (Ejemplos)
-Administrador
-Email: admin@gym.com
+### 👩‍💻 Administrador
+- Email: admin@gym.com
 
-Contraseña: adminpass
+- Contraseña: adminpass
 
-Se debe asignar rol admin manualmente en la base de datos.
+- Rol: admin (tendrá que asignarse manualmente en la DB o crear el primer admin con la clave directa).
 
-Entrenador
-Email: trainer@gym.com
+### 👨‍💻 Entrenador
+- Email: trainer@gym.com
 
-Contraseña: trainerpass
+- Contraseña: trainerpass
 
-Clave de acceso: definida en .env (ADMIN_TRAINER_KEY)
+- Rol: trainer
 
-Cliente
-Email: client@gym.com
+- Clave de Acceso (ADMIN_TRAINER_KEY): La que definiste en tu .env.
 
-Contraseña: clientpass
+### 👩‍💻 Cliente
+- Email: client@gym.com
 
-Entrenador asignado: trainer@gym.com (desde el panel de admin o entrenador)
+- Contraseña: clientpass
+
+- Rol: client
+
+- Entrenador asignado: trainer@gym.com (seleccionar de la lista).
+
+---
 
 🧠 Chatbot IA
 El chatbot está conectado a Ollama con el modelo llama3.1:8b, puede responder preguntas sobre fitness, nutrición y el uso de la app. Mantiene el contexto y recuerda el historial de conversación.
